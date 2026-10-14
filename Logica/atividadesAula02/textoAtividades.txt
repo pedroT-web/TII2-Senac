@@ -1,0 +1,9 @@
+3.Escreva um programa que leia o salário de um funcionário e aplique um aumento de acordo com a seguinte regra: salários menores que R$1000 recebem 20% de aumento, entre R$1000 e R$2000 recebem 15%, e acima de R$2000 recebem 10%.
+4. Escreva um programa que converta uma temperatura de Celsius para Fahrenheit e vice-versa.
+5. Escreva um programa que leia dois números e uma operação (adição, subtração, multiplicação, divisão) e realize a operação entre os dois números.
+6. Faça um programa que leia o nome de um aluno e suas três notas, calcule a média e informe se ele está aprovado (média maior ou igual a 7) ou reprovado.
+7. Escreva um programa que verifique se um número fornecido pelo usuário é positivo, negativo ou zero.
+8. Escreva um programa que leia dois números e uma operação (adição, subtração, multiplicação, divisão) e realize a operação entre os dois números.
+9. Faça um programa que leia um número e verifique se ele está entre 1 e 100.
+10. Escreva um programa que leia uma data (dia, mês, ano) e verifique se é uma data válida.
+

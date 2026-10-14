@@ -1,0 +1,38 @@
+Variable data types
+// string = text
+// boolean = true / false
+// float = number with a decimal point
+// int = integer
+
+
+=======================================================================================================================================================================================================
+Types of variables
+// var = value -> Variable available throughout the entire scope
+// 
+// 
+
+
+=======================================================================================================================================================================================================
+Display data
+// console.log(something for display) -> Displays something in the console.
+
+
+=======================================================================================================================================================================================================
+Operators
+// = -> Atribuition, Assigns a value to something
+// == -> Comparation, compares two values
+// >= -> Bigger equal, Verify if the value is Bigger or Equal to other
+// <= -> Minor Equal, Verify if the value is Minor or Equal to other
+
+Arithmetic Operators
+
+=======================================================================================================================================================================================================
+Conditionals
+// if(condition){Action to be performed} -> It depends of condition for execute the code
+// else if(condicao){acao a ser executada} -> Permite mais de duas condições, mas depende de alguma das condições para não cair no else.
+// else{Action to be performed} -> If no condition (if) is met, it executes this code.
+
+
+=======================================================================================================================================================================================================
+Concatenadores
+// "+" -> Concatenates something after of text or variables.

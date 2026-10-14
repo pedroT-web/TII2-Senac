@@ -1,0 +1,39 @@
+Tipos de dados de Variaveis
+// string = texto
+// boolean = verdadeiro / falso
+// float = numeros com casas decimais
+// int = numeros inteiros
+
+
+=======================================================================================================================================================================================================
+Tipos de variaveis
+// var = valor -> Variavel disponivel em todo o escopo global
+
+
+=======================================================================================================================================================================================================
+Exibir dados
+// console.log(Algo para exibir) -> Exibir algo no console.
+
+
+=======================================================================================================================================================================================================
+Operadores
+// "=" -> Atribuição, atribui um valor a algo
+// "==" -> Comparação, compara dois valores
+// ">" -> Maior, verifica se é maior
+// "<" -> Menor, verifica se é menor
+// ">=" -> Maior Igual, Verifica se o valor é maior ou igual a outro
+// "<=" -> Menor Igual, verifica se o valor é menor ou igual a outro
+
+Operadores Aritmetricos
+
+
+=======================================================================================================================================================================================================
+Condicionais
+// if(condicao){acao a ser executada} -> Depende da condição para executar o código.
+// else if(condicao){acao a ser executada} -> Permite mais de duas condições, mas depende de alguma das condições para não cair no else.
+// else{acao a ser executada} -> Caso nenhuma condicao(if) for atendida, ele executa esse codigo.
+
+
+=======================================================================================================================================================================================================
+Concatenadores
+// "+" -> Concatena algo depois de texto ou variaveis.
