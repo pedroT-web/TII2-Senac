@@ -1,3 +1,5 @@
+LÓGICA DE PROGRAMAÇÃO / JavaScript
+
 Tipos de dados de Variaveis
 // string = texto
 // boolean = verdadeiro / falso
@@ -13,7 +15,7 @@ Tipos de variaveis
 =======================================================================================================================================================================================================
 Exibir dados
 // console.log(Algo para exibir) -> Exibir algo no console.
-
+// alert(Texto para exibir) -> Exibir um alerta na tela
 
 =======================================================================================================================================================================================================
 Operadores
@@ -37,3 +39,60 @@ Condicionais
 =======================================================================================================================================================================================================
 Concatenadores
 // "+" -> Concatena algo depois de texto ou variaveis.
+// `${}` -> Concatena algo dentro do texto
+
+=======================================================================================================================================================================================================
+Casos Dependentes
+// Switch(o que vai receber){
+case "valor esperado": 
+    o que executar caso for esse valor
+    break -> para parar 
+default:
+    o que executar caso não atender nenhum valor
+} 
+    Utilizado quando tem Varios casos
+
+
+=======================================================================================================================================================================================================
+Laços de repetições
+// Do{o que executar}While(condição) -> Primeiro passa o que é para ser executado, depois verifica a condição
+// While(condição){o que executar} -> Primeiro verifica a condição, depois executa
+// For(contador; condição; incrementação){o que executar} -> Atribui tudo dentro dos parenteses, depois executa
+
+
+=======================================================================================================================================================================================================
+Funções
+// function nomeFunção(atributos){o que executar} -> Blocos de códigos que podem ser utilizados várias vezes no código
+
+=======================================================================================================================================================================================================
+HTML
+=======================================================================================================================================================================================================
+TAGs
+// <tag>comando</tag>
+// <p>Parágrafo</p>
+// <h1>Titulo 1 - Mais Importante</h1>
+// <h2>Titulo 2 - Menos Importante que a 1</h2>
+// <h3>Titulo 3 - Menos Importante que a 2</h3>
+// <h4>Titulo 4 - Menos Importante que a 3</h4>
+// <h5>Titulo 5 - Menos Importante que a 4</h5>
+// <h6>Titulo 6 - Menos Importante que a 5</h6>
+// <input type="tipo do input"> -> Recebe dados
+// <button>Texto do botão</button> -> Faz algo ao ser clicado
+// <script src="nome_arquivo.js"></script> -> Linkar arquivos javaScript
+=======================================================================================================================================================================================================
+Input
+    <input type="tipo do input"> -> Caixa para receber algo  
+    <input type="text"> -> Recebe qualquer valor que seja texto
+    <input type="number"> -> Recebe qualquer valor que seja número
+    <input type="date"> -> Recebe valor de datas
+    <input type="datetime-local"> -> Recebe valores de datas com horário
+    <input type="password"> -> Recebe valores como senha, e não mostra o que foi digitado, pela privacidade
+    <input type="color"> -> Recebe cor
+    <input type="checkbox"> -> Recebe uma seleção
+    <input type="image"> -> Recebe uma imagem
+    <input type="file"> -> Recebe um arquivo
+    <input type="reset"> -> Reseta 
+    <input type="submit"> -> Envia
+    <input type="button"> -> Botão
+    <input type="email"> -> Recebe um email
+
