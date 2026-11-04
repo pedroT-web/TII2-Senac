@@ -2,17 +2,24 @@
 // Verificar se a letra digitada é vogal ou constante
 // A E I O U
 
-var letraDigitada = "U"
+var letraDigitada = "A"
 
-if (letraDigitada == "A") {
-    console.log("A letra digitada é uma vogal")
-} else if (letraDigitada == "E") {
-    console.log("A letra digitada é uma vogal")
-} else if (letraDigitada == "I") {
-    console.log("A letra digitada é uma vogal")
-} else if (letraDigitada == "O") {
-    console.log("A letra digitada é uma vogal")
-} else if (letraDigitada == "U") {
+// if (letraDigitada == "A") {
+//     console.log("A letra digitada é uma vogal")
+// } else if (letraDigitada == "E") {
+//     console.log("A letra digitada é uma vogal")
+// } else if (letraDigitada == "I") {
+//     console.log("A letra digitada é uma vogal")
+// } else if (letraDigitada == "O") {
+//     console.log("A letra digitada é uma vogal")
+// } else if (letraDigitada == "U") {
+//     console.log("A letra digitada é uma vogal")
+// } else {
+//     console.log("A letra digitada é uma consoante")
+// }
+
+// Versão atualizada com OR(||)
+if (letraDigitada == "A" || letraDigitada == "E" || letraDigitada == "I" || letraDigitada == "O" || letraDigitada == "U") {
     console.log("A letra digitada é uma vogal")
 } else {
     console.log("A letra digitada é uma consoante")

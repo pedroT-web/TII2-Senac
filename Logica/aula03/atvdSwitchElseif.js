@@ -25,40 +25,48 @@ switch (month) {
 
 // ============================================================================================= Else IF =============================================================================================
 
-if (month == "Janeiro") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Fevereiro") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Março") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Abril") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Maio") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Junho") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Julho") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Agosto") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Setembro") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Outubro") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Novembro") {
-    console.log("Mês Válido!!")
-}
-else if (month == "Dezembro") {
+// if (month == "Janeiro") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Fevereiro") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Março") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Abril") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Maio") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Junho") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Julho") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Agosto") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Setembro") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Outubro") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Novembro") {
+//     console.log("Mês Válido!!")
+// }
+// else if (month == "Dezembro") {
+//     console.log("Mês Válido!!")
+// } else {
+//     console.log("Mês Inválido!!!")
+// }
+
+// Versão atualizada com o OR(||)
+
+if (month == "Janeiro" || month == "Fevereiro" || month == "Março" || month == "Abril" || month == "Maio" || month == "Junho" || month == "Julho" || month == "Agosto" || month == "Setembro" || month == "Outubro" || month == "Novembro" || month == "Dezembro") {
     console.log("Mês Válido!!")
 } else {
     console.log("Mês Inválido!!!")

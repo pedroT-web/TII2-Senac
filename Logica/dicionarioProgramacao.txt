@@ -9,8 +9,9 @@ Tipos de dados de Variaveis
 
 =======================================================================================================================================================================================================
 Tipos de variaveis
-// var = valor -> Variavel disponivel em todo o escopo global
-
+// var nome = valor -> Variavel disponivel em todo o escopo global
+// let nome = valor -> Variavel só existe naquele escopo, não consegue se utilizar fora do escopo
+// const nome = valor -> Variavel constante, o valor não pode ser alterado ao decorrer do código
 
 =======================================================================================================================================================================================================
 Exibir dados
@@ -25,9 +26,19 @@ Operadores
 // "<" -> Menor, verifica se é menor
 // ">=" -> Maior Igual, Verifica se o valor é maior ou igual a outro
 // "<=" -> Menor Igual, verifica se o valor é menor ou igual a outro
+// "+=" -> Soma ao valor atual de algo
+// "-=" -> Subtração ao valor atual de algo
 
 Operadores Aritmetricos
+// "+" -> Operador de soma
+// "-" -> Operador de subtração
+// "*" -> Operador de multiplicação
+// "/" -> Operador de divisão
 
+Operadores Lógicos
+// "&&" -> Operador de multiplas condições
+// "||" -> Operador de multiplas opções de condições
+// "!" -> Operador de negação
 
 =======================================================================================================================================================================================================
 Condicionais
