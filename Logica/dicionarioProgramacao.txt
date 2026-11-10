@@ -21,7 +21,9 @@ Exibir dados
 =======================================================================================================================================================================================================
 Operadores
 // "=" -> Atribuição, atribui um valor a algo
-// "==" -> Comparação, compara dois valores
+// "!=" -> Compara se dois valores são diferentes
+// "==" -> Compara se dois valores são equivalentes
+// "===" -> Compara se dois valores são literalmente iguais
 // ">" -> Maior, verifica se é maior
 // "<" -> Menor, verifica se é menor
 // ">=" -> Maior Igual, Verifica se o valor é maior ou igual a outro
