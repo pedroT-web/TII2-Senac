@@ -75,7 +75,7 @@ Laços de repetições
 
 =======================================================================================================================================================================================================
 Funções
-// function nomeFunção(atributos){o que executar} -> Blocos de códigos que podem ser utilizados várias vezes no código
+// function nomeFunção(parametros){o que executar} -> Blocos de códigos que podem ser utilizados várias vezes no código, os parametros são dados externos que eu utilizo na função
 
 =======================================================================================================================================================================================================
 HTML
