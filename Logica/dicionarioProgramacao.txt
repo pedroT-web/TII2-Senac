@@ -76,6 +76,27 @@ Laços de repetições
 =======================================================================================================================================================================================================
 Funções
 // function nomeFunção(parametros){o que executar} -> Blocos de códigos que podem ser utilizados várias vezes no código, os parametros são dados externos que eu utilizo na função
+// "=>" arrow function usado para definir uma função anônima
+// () => {} declaração da função anonima
+=======================================================================================================================================================================================================
+Arrays
+// let nome_array = [dado1, dado2, dado3] -> Serve para armazenar vários dados em apenas uma variável.
+// os valores são separados por vírgula (,)
+// o nome do array é bom ser no plural para melhor identificação
+// console.log(array[3]) -> Consulta de posição (obs. a contagem do array começa em 0)
+// nomes[4] = "Caleb" -> Subistitui o valor atual da posição 4 pelo valor fornecido
+// console.log(nomes.length) -> Conta quantas informações tem no array
+// nomes.push("Nicolas") -> push adiciona mais um valor ao FINAL do array
+// nomes.unshift("Rosângela") -> Adiciona mais um valor no começo do array
+// nomes.pop() -> Remove o último valor
+// nomes.shift() -> Remove o primeiro valor
+// se eu quiser extrais a informação eu posso colocar dentro de uma variável.
+// let primeiroNome = nomes.shift()
+// let ultimoNome = nomes.pop()
+// console.log(nomesAmigos.includes("Nicolas")) -> Retorna True or False - Verifica se existe esse valor dentro do array
+// console.log(nomesAmigos.indexOf("Samuel")) -> Retorna o indice do valor dentro do array.
+// Se não existir o valor dentro do array ele retorna -1
+
 
 =======================================================================================================================================================================================================
 HTML
