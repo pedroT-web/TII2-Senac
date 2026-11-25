@@ -95,8 +95,12 @@ Arrays
 // let ultimoNome = nomes.pop()
 // console.log(nomesAmigos.includes("Nicolas")) -> Retorna True or False - Verifica se existe esse valor dentro do array
 // console.log(nomesAmigos.indexOf("Samuel")) -> Retorna o indice do valor dentro do array.
+// array.splice(item_inicial, qtd_remover_apos_item) -> Remove os itens entre os valores passados
 // Se não existir o valor dentro do array ele retorna -1
 
+=======================================================================================================================================================================================================
+Funcionalidades internas
+// variavel.charAt(0) -> Pega o primeiro caracter da variavel.
 
 =======================================================================================================================================================================================================
 HTML
