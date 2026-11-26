@@ -153,16 +153,16 @@ fnFiltrarNomes(nomes, "A")
 // Um controle de estoque guarda produtos com seus respectivos nomes e quantidades em estoque (Notebook com 
 // 4, Webcam com 0, Mousepad com 12 e Cabo HDMI com 0). Percorra a coleção e exiba no terminal apenas os itens 
 // que ainda possuem unidades disponíveis (quantidade maior que zero).
-let produtos = ["Notebook", "WebCam", "Mousepad", "Cabo HDMI"]
-let quantidades = [4, 0, 12, 0]
+let produtos = ["Notebook com 4", "WebCam com 0", "Mousepad com 12", "Cabo HDMI com 0"]
 
-function fnUnidadesDisponiveis(lista, listaQtds) {
+function fnUnidadesDisponiveis(lista) {
     lista.forEach((produto, i) => {
-        if (listaQtds[i] > 0) {
-            console.log(`O produto ${produto} tem ${listaQtds[i]} unidades disponíveis`);
+
+        if (produto.includes(0) == false) {
+            console.log(`O produto ${produto} ainda tem unidades disponíveis`);
         } else {
             console.log(`O produto ${produto} não tem unidades disponíveis`);
         }
     })
 }
-fnUnidadesDisponiveis(produtos, quantidades)
+fnUnidadesDisponiveis(produtos)

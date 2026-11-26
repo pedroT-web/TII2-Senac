@@ -104,7 +104,7 @@ fnEstaNaLista(convidados, "Rafael")
 let ordem = ["Arroz", "Feijão", "Açúcar", "Café", "Sal"]
 
 function fnConsultarCorredor(lista, item) {
-    let posicao = lista.indexOf(item)
+    let posicao = lista.indexOf(item) + 1
     let tem_item = lista.includes(item)
 
     if (posicao == -1 || tem_item == false) {
@@ -123,12 +123,18 @@ fnConsultarCorredor(ordem, "Macarrão")
 let precos_base = [15.00, 25.00, 40.00]
 
 function fnAtualizarPreco(lista, indice, novoValor) {
+    if ((lista.length - 1) < indice) {
+        console.log("Produto Não encontrado");
+
+        return
+    }
+
     lista[indice] = novoValor
 
     console.log(`Tabela de preços atualizada: ${lista}`);
 
 }
-fnAtualizarPreco(precos_base, 1, 28.5)
+fnAtualizarPreco(precos_base, 5, 28.5)
 
 // Para montar o boletim inicial de um estudante com as notas 8.0, 7.5 e 9.0, você precisa agrupar esses valores em 
 // uma única estrutura. Crie uma função fnCriarBoletim(nota1, nota2, nota3) que armazene as três notas em um array e 
@@ -139,4 +145,4 @@ function fnCriarBoletim(nota1, nota2, nota3) {
     console.log(`Notas: ${boletim}`)
 }
 
-fnCriarBoletim(5, 6, 8)
+fnCriarBoletim(8.0, 7.5, 9.0)
