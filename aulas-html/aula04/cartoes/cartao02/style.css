@@ -1,0 +1,65 @@
+/*
+seletor{
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background-color: #d3d3d3;
+    /* Espaçamento Externo do objeto */
+    color: #000;
+
+}
+
+.container {
+    border: 1px solid #d3d3d3;
+    background-color: #fffbfb;
+
+    border-radius: 40px;
+    width: 290px;
+
+    /* Espaçamento Interno do objeto */
+    padding: 6px;
+    margin: 100px auto;
+}
+
+.destaque {
+    width: 290px;
+    height: 350px;
+    border-radius: 40px;
+}
+
+.nome {
+    font-size: 20px;
+    padding-left: 25px;
+    font-family: arial;
+    color: #292929;
+    margin-bottom: 5px;
+}
+
+.descricao {
+    font-size: 16px;
+    font-family: verdana;
+    padding-left: 25px;
+    color: #555555;
+    line-height: 26px;
+    margin-top: 0;
+}
+
+.botao {
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(to bottom, #f7f7f7, #ededed);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.container_botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+}

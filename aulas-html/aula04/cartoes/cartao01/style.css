@@ -1,0 +1,62 @@
+/*
+seletor{
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background-color: #d3d3d3;
+    /* Espaçamento Externo do objeto */
+    color: #000;
+
+}
+
+.container_principal{
+    display: flex;
+}
+
+.container {
+    border: 1px solid #d3d3d3;
+    background-color: #fffbfb;
+
+    border-radius: 20px;
+    width: 370px;
+    /* Espaçamento Interno do objeto */
+    padding: 8px;
+    box-shadow: 0px 0px 20px #0000006b;
+    margin: 100px auto;
+}
+
+.destaque {
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+}
+
+.valor {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+
+.titulo {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: tahoma;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.botao {    
+    padding: 20px;
+    width: 100%;
+    border-radius: 40px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    margin-top: 10px;
+}
